@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.conteiner{
+    max-width: 1680px;
+    width: 80%;
+    margin: auto;
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+    'aside header'
+    'aside section'
+    'article section'
+    'footer footer';
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: section;
+}
+.item3{
+    grid-area: aside;
+}
+.item4{
+    grid-area: article;
+}
+.item5{
+    grid-area: footer;
+}
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-search  {
+    display: flex;
+    background-color: #F8F8F8;
+    margin-top: 2%;
+}
+.header-infut{
+    border: none;
+    padding: 8px 30px;
+    background-color: #F8F8F8;
+    
+}
+.header-gopro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+}
+.header-gopro-gopro{
+    font-size: 14px;
+    color: #FF2288;
+    font-family: 'Avenir LT Std';
+    padding: 10px;
+}
+.gopro-img{
+    padding: 10px;
+}
+.gopro-img-men{
+    width: 50px;
+    height: 50px;
+    
+
+}
+.gopro-button{
+    background-color: #FF2288;
+    width: 129px;
+    height: 56px;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px;
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+.navbar-ul{
+    display: flex;
+}
+.navbar-a{
+    color: #222222;
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+    padding: 15px;
+}
+.navbar-all{
+    background-color:#F2F2F2 ;
+    border-radius: 12px;
+    padding: 10px;
+}
+.navbar-img-img{
+    width: 18px;
+}
+.navbar-img-span{
+    font-size: 16px;
+    font-family: 'Avenir LT Std';
+    color: #222222;
+
+}
+.item3{
+    background-color: #222222;
+}
