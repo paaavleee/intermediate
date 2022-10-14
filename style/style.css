@@ -62,6 +62,7 @@ a{
     justify-content: space-around;
     align-items: center;
     margin-top: 1%;
+    margin-left: 10px;
 }
 
 .header-gopro-gopro{
@@ -97,8 +98,7 @@ a{
     
 
 }
-/* es maq gasasworebeli
- */
+
 .gopro-button{
     background-color: #FF2288;
     max-width: 129px;
@@ -106,7 +106,8 @@ a{
     height: 56px;
     border-radius: 12px;
     cursor: pointer;
-    padding-left: 10px;
+    padding: 20px;
+    margin-left: 10px;
 }
 .navbar-main{
     display: flex;
@@ -152,7 +153,7 @@ a{
     background-color: #222222;
     max-width: 319px;
     width: 100%;
-    position: fixed;
+    
 }
 .aside-logo{
     display: flex;
@@ -362,4 +363,40 @@ a{
     background-color: #F2F2F2;
     padding: 12px 36px;
     margin-top: 10px;
+}
+/* footer style */
+.item5{
+    margin-top: 70px;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+}
+.foot-h{
+    font-size: 16px;
+    padding-bottom: 36px;
+}
+.foot-main{
+    display: flex;
+}
+.foot-a{
+    display: flex;
+    flex-direction: column;
+}
+.footer-a{
+    color: #222222;
+    padding: 5px;
+}
+.foot-select1{
+    margin: 20px;
+}
+.foot-small-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-foto{
+    display: flex;
 }
