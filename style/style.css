@@ -251,7 +251,7 @@ a{
 }
 /* section img */
 .item2{
-    
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -266,22 +266,29 @@ a{
     max-width: 289px;
     width: 100%;
     height: 210px;
-    object-fit: cover;   
+    object-fit: cover;
+    position: relative;   
 }
 
 
 .hover-img{
     position: absolute;
+    top: 8%;
+    left: 8%;
     display: none;
 }
-.hover-img{
+.img-1:hover + .hover-img{
+    display: flex;
+    flex-direction: column;
+}
+/* .hover-img{
     display: flex;
     flex-direction: column-reverse;
     position: absolute;
     top: 10%;
     left: 8%;
     display: none;
-}
+} */
 .sect-img-p{
     color: #222222;
     
@@ -347,6 +354,9 @@ a{
     
     
 }
+.follow-article{
+    padding-right: 15px;
+}
 .follow-img-h{
     font-size: 16px;
     font-family: 'Avenir LT Std';
@@ -370,7 +380,7 @@ a{
     display: flex;
     
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
 
 }
@@ -399,4 +409,47 @@ a{
 }
 .footer-foto{
     display: flex;
+}
+
+/* secont page */
+.borter{
+    max-width: 1485px;
+    width: 100%;
+}
+.table-main {
+    width: 100%;
+    
+     padding: 8px;
+     border-collapse: collapse;
+}
+.table-th{
+    border-bottom: 1px solid gray;
+    padding-top: 69px;
+    padding-bottom: 32px;
+    text-align: center;
+    color: #222222;
+    font-size: 18px;
+}
+.table-main {
+    border-bottom: 1px solid saddlebrown;
+    padding-top: 24px;
+    padding-bottom: 27px;
+    text-align: center;
+    color: #AFAFAF;
+}
+.table-5list{
+    padding-top: 24px;
+    padding-bottom: 27px;
+    text-align: center;
+    background-color: #F2F2F2;
+    color: #222222;
+    border-bottom: 1px solid gray;
+    border-radius: 12px;
+}
+.table-main-tr{
+    border-bottom: 1px solid gray;
+    padding-top: 24px;
+    padding-bottom: 27px;
+    text-align: center;
+    color: #AFAFAF;
 }
