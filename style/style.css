@@ -459,7 +459,7 @@ a{
 @media (max-width: 1024px){
     .conteiner{
         max-width: 1024px;
-        width: 80%;
+        width: 90%;
     }
     .grid-main {
         display: flex;
