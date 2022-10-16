@@ -315,6 +315,7 @@ a{
     padding: 16px 108px;
     margin-top: 70px;
     margin-bottom: 70px;
+    cursor: pointer;
 }
 
 /* article style */
@@ -453,3 +454,71 @@ a{
     text-align: center;
     color: #AFAFAF;
 }
+/* mobile style */
+
+@media (max-width: 1024px){
+    .conteiner{
+        max-width: 1024px;
+        width: 80%;
+    }
+    .grid-main {
+        display: flex;
+        background-color: darkgray;
+        flex-direction: column;
+    }
+    .header-main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .aside-div-nav{
+        display: none;
+    }
+    .aside-logo:hover + .aside-div-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .aside-FOLLOWING{
+        display: none;
+    }
+    .item2{
+        display: flex;
+    }
+    .navbar-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-navbar{
+        display: flex;
+    }
+    .navbar-ul{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .follow-contact{
+        display: flex;
+        
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .follow-article{
+        padding-bottom: 10%;
+        padding-right: unset;
+
+    }
+    .follow-img{
+        width: 50%;
+        max-width: unset;
+    }
+    .item5{
+        margin-top: 20%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .table-main-tr{
+        color: #222222;
+        border: 1px solid #222222;
+        
+    }
+}   
