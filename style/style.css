@@ -45,15 +45,20 @@ a{
 }
 .header-search  {
     display: flex;
-    background-color: #F8F8F8;
+    align-items: center;
+    
     margin-top: 2%;
     max-width: 446px;
     width: 100%;
 }
+.search-image{
+    height: 80%;
+}
 .header-infut{
     border: none;
-    padding: 8px 30px;
+    padding: 15px 30%;
     background-color: #F8F8F8;
+    width: 100%;
     
     
 }
@@ -160,6 +165,10 @@ a{
     justify-content: space-around;
     align-items: center;
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aside-load{
+    margin-top: 20%;
 }
 .design-img{
     max-width: 146px;
@@ -170,7 +179,7 @@ a{
     width: 100%;
     
 }
-/* ar daaaaaanitavrebuaaaaaaaaaaaaa aside */
+
 .aside-nav-img{
     max-width: 24px;
     width: 100%;
@@ -186,6 +195,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 15%;
 }
 .aside-back{
     background-color: #FF2288;
@@ -277,10 +287,10 @@ a{
     left: 8%;
     display: none;
 }
-.img-1:hover + .hover-img{
+/* .img-1:hover + .hover-img{
     display: flex;
     flex-direction: column;
-}
+} */
 /* .hover-img{
     display: flex;
     flex-direction: column-reverse;
@@ -411,6 +421,12 @@ a{
 .footer-foto{
     display: flex;
 }
+.footer-foto-fb{
+    padding-right: 20%;
+}
+.footer-foto-a{
+    display: flex;
+}
 
 /* secont page */
 .borter{
@@ -463,17 +479,20 @@ a{
     }
     .grid-main {
         display: flex;
-        background-color: darkgray;
+        align-items: center;
         flex-direction: column;
     }
     .header-main{
         display: flex;
         flex-direction: column-reverse;
     }
-    .aside-div-nav{
-        display: none;
+    .item3{
+        margin: 5%;
     }
-    .aside-logo:hover + .aside-div-nav{
+    /* .aside-div-nav{
+        display: none;
+    } */
+    .aside-logo:hover + {
         display: flex;
         flex-direction: column;
     }
@@ -495,6 +514,10 @@ a{
         flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
+        padding: 2%;
+    }
+    .navbar-lii{
+        padding: 3%;
     }
     .follow-contact{
         display: flex;
@@ -518,7 +541,7 @@ a{
     }
     .table-main-tr{
         color: #222222;
-        border: 1px solid #222222;
+        
         
     }
 }   
