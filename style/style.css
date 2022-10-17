@@ -287,10 +287,10 @@ a{
     left: 8%;
     display: none;
 }
-/* .img-1:hover + .hover-img{
+.img-1:hover + .hover-img{
     display: flex;
     flex-direction: column;
-} */
+} 
 /* .hover-img{
     display: flex;
     flex-direction: column-reverse;
@@ -298,7 +298,7 @@ a{
     top: 10%;
     left: 8%;
     display: none;
-} */
+}
 .sect-img-p{
     color: #222222;
     
